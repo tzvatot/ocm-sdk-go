@@ -19,6 +19,10 @@ class MachineType {
 	// Human friendly identifier of the machine type, for example `r5.xlarge - Memory Optimized`.
 	Name String
 
+	// The category which the machine type is suitable for.
+	// Options: `general_purpose`, `memory_optimized`, `compute_optimized`.
+	Category String
+
 	// The amount of memory of the machine type.
 	Memory Value
 
